@@ -1,10 +1,12 @@
 <?php
 // Configurazione del database
 // Avvia la sessione se non è già stata avviata
+/*
 if (session_status() == PHP_SESSION_NONE) {
     session_start();
 }
-require_once('debug.php');
+*/
+//require_once('debug.php');
 $hostTMP = $_SERVER['HTTP_HOST'];
 
 
